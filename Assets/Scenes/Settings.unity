@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 88719053}
   - component: {fileID: 88719052}
   m_Layer: 5
-  m_Name: MusicPanel (1)
+  m_Name: EffectPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &494337137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 23.149963, y: 12.02}
+  m_AnchoredPosition: {x: 23.149963, y: 12.019989}
   m_SizeDelta: {x: -46.3, y: -24.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1981641997297644584

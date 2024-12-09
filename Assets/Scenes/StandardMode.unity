@@ -6211,8 +6211,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3306590775494383669}
   m_HandleRect: {fileID: 5190486014715244105}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.67805815
+  m_Value: 0.00000014283245
+  m_Size: 0.6780581
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6602,7 +6602,7 @@ GameObject:
   - component: {fileID: 6690530626620789882}
   - component: {fileID: 451222623020774666}
   m_Layer: 5
-  m_Name: Button
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6725,8 +6725,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281808878
-  m_fontColor: {r: 0.9339623, g: 0.21586865, b: 0.21586865, a: 1}
+    rgba: 4294623047
+  m_fontColor: {r: 0.2784314, g: 0.7490196, b: 0.9803922, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12268,7 +12268,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f7b5bdabc2e81734dbdf55c02fbbd6ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc8ebb20620cd6a4ca86cf85e3c477bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18184,7 +18184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.43921572, g: 0, b: 0.007843138, a: 1}
+  m_Color: {r: 0.227451, g: 0.54901963, b: 0.7137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
