@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a0a58930dfeea14a8b7b057104a8733, type: 3}
-  m_Name: lvlTest 3
+  m_Name: lvlTest 10
   m_EditorClassIdentifier: 
   id: 3
   puzzleCount: 3
   time: 15
-  sprite: {fileID: 21300000, guid: 11c81bcb4e3be94429e9f59ec4c9682c, type: 3}
+  sprite: {fileID: 21300000, guid: ca27b496c905f694ebf45c8c686e1a10, type: 3}
