@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 2
   puzzleCount: 2
   time: 10
-  sprite: {fileID: 21300000, guid: bc314df0bc269a745a086ad8ce7c0f79, type: 3}
+  sprite: {fileID: 21300000, guid: ac109067de496db408b425a895c20ab5, type: 3}

@@ -198,6 +198,7 @@ public class PuzzleController : MonoBehaviour
                         instMoveVariant = formC;
                         break;
                 }
+                Debug.Log("Считаем");
                 
                 instSet = Instantiate(instSetVariant, border);
                 rectSet = instSet.GetComponent<RectTransform>();
@@ -237,11 +238,13 @@ public class PuzzleController : MonoBehaviour
     }
     public void SetRandomSprite()
     {
+        Debug.Log("Спрайт ");
         int rand = UnityEngine.Random.Range(0, sprites.Length);
         currentSprite = sprites[rand];
     }
     public void CreateUserPuzzle(Sprite s, int i)
     {
+        Debug.Log("Спрайт 1");
         puzzleSize = i;
         currentSprite = s;
         detailMult = (border.offsetMax.x - border.offsetMin.x) / puzzleSize / 100;
@@ -251,6 +254,7 @@ public class PuzzleController : MonoBehaviour
     }
     public void CreateDefaultPuzzle(int id, int cnt, int time, Sprite s)
     {
+         Debug.Log("Спрайт ");
         if (setUserPuzzle)
             return;
         puzzleSize = cnt;
