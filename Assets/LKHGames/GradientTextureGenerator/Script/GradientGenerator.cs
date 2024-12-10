@@ -121,7 +121,7 @@ namespace LKHGames
             _gradientTexture = GenerateGradientTexture(gradient);
             byte[] _bytes = _gradientTexture.EncodeToPNG();
 
-            #region Create new folder if it doesn't exist
+            /*#region Create new folder if it doesn't exist
 			if(AssetDatabase.IsValidFolder("Assets/" + savingPath) == false)
 			{
 				string[] folderNameArray = savingPath.Split('/');
@@ -138,7 +138,7 @@ namespace LKHGames
 				AssetDatabase.CreateFolder("Assets" + newfolderPath, folderNameArray[folderNameArray.Length-2]);
 				Debug.Log("<color=#FFFF00><b>Path saving location not found, New folder was created</b></color>");
 			}
-			#endregion
+			#endregion*/
 
             var randomIndex = Random.Range(0, 999999).ToString();
             File.WriteAllBytes(Application.dataPath + savingPath + "GradientTexture_" + randomIndex + saveFormat, _bytes);

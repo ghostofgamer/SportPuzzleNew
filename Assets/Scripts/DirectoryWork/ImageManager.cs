@@ -6,12 +6,14 @@ using System.IO;
 using System.Linq;
 using System;
 using Unity.VisualScripting;
-using UnityEditor.PackageManager;
+
 public class ImageManager : MonoBehaviour
 {
+    
     public GameObject filesListPan, filesContent, filePrefab;
     public RawImage img;
-    private DirectoryInfo dirInfo = new DirectoryInfo("C:\\Users\\vanya\\Downloads");
+    // private DirectoryInfo dirInfo = new DirectoryInfo("C:\\Users\\vanya\\Downloads");
+    private DirectoryInfo dirInfo = new DirectoryInfo("C:\\Users\\VadimPC\\Downloads");
     private FileInfo[] files;
     private GameObject[] instancedObjs;
     public static ImageManager instance;
