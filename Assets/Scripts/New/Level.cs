@@ -40,8 +40,8 @@ public class Level : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("CurrentTimingLevel", _index);
-
             PlayerPrefs.SetInt("SelectViewGame", 1);
+            _sceneLoader.LoadScene("StandardMode");
         }
     }
 }
