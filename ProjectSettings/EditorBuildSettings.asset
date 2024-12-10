@@ -27,9 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Shop.unity
     guid: 86bf557240e12f64583dc112494de759
   - enabled: 1
-    path: Assets/Scenes/LevelsScene.unity
+    path: Assets/Scenes/AchiviementsScene.unity
     guid: ccc9d5f4aa37338439c15f2bddf97285
   - enabled: 1
     path: Assets/Scenes/LevelsTimerScene.unity
     guid: 458ca0682ad976744804a649b445b346
+  - enabled: 1
+    path: Assets/Scenes/LevelsStandartScene.unity
+    guid: 1cc82eda103416544ab2e72a00eaf452
   m_configObjects: {}

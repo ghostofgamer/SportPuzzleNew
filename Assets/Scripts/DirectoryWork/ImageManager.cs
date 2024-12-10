@@ -67,5 +67,13 @@ public class ImageManager : MonoBehaviour
         PuzzleController.instance.CreateUserPuzzle(mySprite, amountpuzzles);
         PuzzleController.instance.gameObject.SetActive(true);
         gameObject.SetActive(false);
+
+        int createPuzzleCount = PlayerPrefs.GetInt("CreatePuzzle", 0);
+        
+        if (createPuzzleCount < 2)
+        {
+            createPuzzleCount++;
+            PlayerPrefs.SetInt("CreatePuzzle", createPuzzleCount);
+        }
     }
 }

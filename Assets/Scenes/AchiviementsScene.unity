@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 44093199}
   - component: {fileID: 44093201}
   - component: {fileID: 44093200}
+  - component: {fileID: 44093202}
   m_Layer: 5
   m_Name: Achievement
   m_TagString: Untagged
@@ -199,6 +200,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44093198}
   m_CullTransparentMesh: 1
+--- !u!114 &44093202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44093198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eacff51fd2b994aa60d5802554a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _achievementsEnum: 0
+  _maxCount: 30
+  _imageFill: {fileID: 446391084}
+  _textValue: {fileID: 1029688261}
 --- !u!1 &126388565
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 102, y: 0.0000038100115}
+  m_AnchoredPosition: {x: 46, y: 0.0000038100115}
   m_SizeDelta: {x: 200, y: 140.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136406572
@@ -365,7 +382,7 @@ MonoBehaviour:
   m_fontSizeMin: 15
   m_fontSizeMax: 50
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -616,6 +633,7 @@ GameObject:
   - component: {fileID: 404555067}
   - component: {fileID: 404555069}
   - component: {fileID: 404555068}
+  - component: {fileID: 404555070}
   m_Layer: 5
   m_Name: Achievement (3)
   m_TagString: Untagged
@@ -682,6 +700,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404555066}
   m_CullTransparentMesh: 1
+--- !u!114 &404555070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404555066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eacff51fd2b994aa60d5802554a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _achievementsEnum: 3
+  _maxCount: 60
+  _imageFill: {fileID: 999977429}
+  _textValue: {fileID: 1426489030}
 --- !u!1 &446391082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1204,7 @@ GameObject:
   - component: {fileID: 734793041}
   - component: {fileID: 734793043}
   - component: {fileID: 734793042}
+  - component: {fileID: 734793044}
   m_Layer: 5
   m_Name: Achievement (2)
   m_TagString: Untagged
@@ -1236,6 +1271,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734793040}
   m_CullTransparentMesh: 1
+--- !u!114 &734793044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734793040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eacff51fd2b994aa60d5802554a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _achievementsEnum: 2
+  _maxCount: 2
+  _imageFill: {fileID: 1535698896}
+  _textValue: {fileID: 2114697381}
 --- !u!1 &863243418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,7 +1620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 102, y: 0.0000038100115}
+  m_AnchoredPosition: {x: 46, y: 0.0000038100115}
   m_SizeDelta: {x: 200, y: 140.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029688261
@@ -1626,7 +1677,7 @@ MonoBehaviour:
   m_fontSizeMin: 15
   m_fontSizeMax: 50
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1987,6 +2038,7 @@ GameObject:
   - component: {fileID: 1281729146}
   - component: {fileID: 1281729148}
   - component: {fileID: 1281729147}
+  - component: {fileID: 1281729149}
   m_Layer: 5
   m_Name: Achievement (1)
   m_TagString: Untagged
@@ -2053,6 +2105,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281729145}
   m_CullTransparentMesh: 1
+--- !u!114 &1281729149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281729145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eacff51fd2b994aa60d5802554a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _achievementsEnum: 1
+  _maxCount: 30
+  _imageFill: {fileID: 126388567}
+  _textValue: {fileID: 136406572}
 --- !u!1 &1426489028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,7 +2155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 102, y: 0.0000038100115}
+  m_AnchoredPosition: {x: 46, y: 0.0000038100115}
   m_SizeDelta: {x: 200, y: 140.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426489030
@@ -2144,7 +2212,7 @@ MonoBehaviour:
   m_fontSizeMin: 15
   m_fontSizeMax: 50
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2696,7 +2764,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 102, y: 0.0000038100115}
+  m_AnchoredPosition: {x: 46, y: 0.0000038100115}
   m_SizeDelta: {x: 200, y: 140.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2114697381
@@ -2753,7 +2821,7 @@ MonoBehaviour:
   m_fontSizeMin: 15
   m_fontSizeMax: 50
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
