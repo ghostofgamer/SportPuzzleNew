@@ -18,8 +18,29 @@ public class InLevelData : MonoBehaviour
     {
         if (PuzzleController.instance != null)
         {
-            LevelScriptableObject lso = data[levelToLoad];
-            PuzzleController.instance.CreateDefaultPuzzle(levelToLoad + 1, lso.PuzzleCount, lso.Time, lso.Sprite);
+            Debug.Log("ТУТААА");
+            int selectViewGame =  PlayerPrefs.GetInt("SelectViewGame", 0);
+            int maxCompletedLevel;
+            
+            if (selectViewGame == 0)
+            {
+                maxCompletedLevel = PlayerPrefs.GetInt("CurrentStandardLevel", 0);
+                Debug.Log("Загружаем Стандартный Левел " + maxCompletedLevel);
+            }
+            else
+            {
+                maxCompletedLevel = PlayerPrefs.GetInt("CurrentTimingLevel", 0);
+            }
+            
+            
+            
+            
+            /*LevelScriptableObject lso = data[levelToLoad];
+            PuzzleController.instance.CreateDefaultPuzzle(levelToLoad + 1, lso.PuzzleCount, lso.Time, lso.Sprite);*/
+
+
+            LevelScriptableObject lso = data[maxCompletedLevel];
+            PuzzleController.instance.CreateDefaultPuzzle(maxCompletedLevel + 1, lso.PuzzleCount, lso.Time, lso.Sprite);
         }
     }
 
