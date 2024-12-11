@@ -243,3 +243,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5e0fd939f7719419008161dc597cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgAudioSource: {fileID: 8794401116094731271}
+  _audioMixerGroup: {fileID: 24300002, guid: bd69dc7773bdfe4448dcd686800edc4d, type: 2}

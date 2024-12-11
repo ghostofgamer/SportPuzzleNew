@@ -14,7 +14,7 @@ public class Shop : MonoBehaviour
     {
         int amount = PlayerPrefs.GetInt("valute", 0);
         int health = PlayerPrefs.GetInt("health", 3);
-        int price = 2;
+        int price = 25;
         if (amount > price && health < 3)
         {
             amount -= price;
